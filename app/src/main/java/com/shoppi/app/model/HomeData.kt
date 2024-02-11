@@ -1,8 +1,8 @@
-package com.shoppi.app
+package com.shoppi.app.model
 
 import com.google.gson.annotations.SerializedName
 
 data class HomeData(
-    val title:Title,
+    val title: Title,
     @SerializedName("top_banners") val topBanners : List<Banner>
 )
