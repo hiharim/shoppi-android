@@ -9,4 +9,5 @@ plugins {
 ext{
     navVersion ='2.5.3'
     glideVersion ='4.12.0'
+    retrofitVersion = '2.9.0'
 }
