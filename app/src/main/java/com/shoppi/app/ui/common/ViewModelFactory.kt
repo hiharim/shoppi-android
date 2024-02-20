@@ -7,9 +7,12 @@ import com.shoppi.app.AssetLoader
 import com.shoppi.app.network.ApiClient
 import com.shoppi.app.repository.category.CategoryRemoteDateSource
 import com.shoppi.app.repository.category.CategoryRepository
+import com.shoppi.app.repository.categorydetail.CategoryDetailRemoteDataSource
+import com.shoppi.app.repository.categorydetail.CategoryDetailRepository
 import com.shoppi.app.repository.home.HomeAssetDataSource
 import com.shoppi.app.repository.home.HomeRepository
 import com.shoppi.app.ui.category.CategoryViewModel
+import com.shoppi.app.ui.categorydetail.CategoryDetailViewModel
 import com.shoppi.app.ui.home.HomeViewModel
 
 // 생성자가 추가된 viewModel 전달하려고
@@ -26,6 +29,10 @@ class ViewModelFactory(private val context: Context) : ViewModelProvider.Factory
             modelClass.isAssignableFrom(CategoryViewModel::class.java) -> {
                 val repository= CategoryRepository(CategoryRemoteDateSource(ApiClient.create()))
                 CategoryViewModel(repository) as T
+            }
+            modelClass.isAssignableFrom(CategoryDetailViewModel::class.java) -> {
+                val repository = CategoryDetailRepository(CategoryDetailRemoteDataSource(ApiClient.create()))
+                CategoryDetailViewModel(repository) as T
             }
 
             else -> {

@@ -1,0 +1,156 @@
+{
+  "categories": [
+    {
+      "category_id": "fashion_female",
+      "label": "여성패션",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/33874962-9bdb-40cf-9d98-021d111295b4",
+      "updated": false
+    },
+    {
+      "category_id": "fashion_male",
+      "label": "남성패션",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/2f94c3ae-e699-4ab7-bed5-1ebfc7c2d848",
+      "updated": false
+    },
+    {
+      "category_id": "kids",
+      "label": "유아동",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/a2d2befa-2803-4b6a-8f68-b50b40864367",
+      "updated": false
+    },
+    {
+      "category_id": "electronics",
+      "label": "가전/디지털",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/c1e4968c-25b9-4bd5-b70f-6c844c1123bc",
+      "updated": false
+    },
+    {
+      "category_id": "furniture",
+      "label": "가구/인테리어",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/a47d136f-a750-4104-8546-6cdc970f9cd8",
+      "updated": true
+    },
+    {
+      "category_id": "sports",
+      "label": "스포츠/레저",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/643942a1-a1ea-42cc-bfd1-f0a9dd86b989",
+      "updated": false
+    },
+    {
+      "category_id": "books",
+      "label": "도서/음반",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/98db4937-7664-4716-a183-8dcade8c0548",
+      "updated": false
+    },
+    {
+      "category_id": "pets",
+      "label": "반려동물",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/a4112371-9c19-4eb8-a779-5d957b00c02c",
+      "updated": false
+    },
+    {
+      "category_id": "car",
+      "label": "자동차",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/ab41d5ea-8fc9-445d-a46f-d48c32527999",
+      "updated": false
+    },
+    {
+      "category_id": "fancy_goods",
+      "label": "잡화",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/98abd9c7-c1be-4d0f-b442-2ac84b717510",
+      "updated": false
+    },
+    {
+      "category_id": "food",
+      "label": "식품",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/312a10de-95ce-46f9-8ce7-c6bbc188a4d4",
+      "updated": false
+    },
+    {
+      "category_id": "beauty",
+      "label": "뷰티",
+      "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/c7211746-596f-4a1c-ae40-c61f26135b87",
+      "updated": true
+    }
+  ],
+  "fashion_female": {
+    "top_selling": {
+      "title": {
+        "text": "인기상품"
+      },
+      "categories": [
+        {
+          "category_id": "fashion_jacket",
+          "label": "자켓",
+          "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/6e9a0b28-317e-49b7-80d4-ddbeb8ed8975",
+          "updated": true
+        },
+        {
+          "category_id": "fashion_sweater",
+          "label": "스웨터",
+          "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/6839a631-17b6-4fb3-b913-e85edf46242a",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_cap",
+          "label": "캡모자",
+          "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/e085ea82-3e80-42d0-8b6e-478f60d29f6f",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_belt",
+          "label": "벨트",
+          "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/15d8d36e-a480-4349-91ba-cea6841c1a26",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_shirts",
+          "label": "셔츠",
+          "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/adb74c47-c226-4696-b35d-2f6835c11b12",
+          "updated": false
+        },
+        {
+          "category_id": "fashion_skirt",
+          "label": "스커트",
+          "thumbnail_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/727b39e5-c7e8-47f2-82c8-ae5cd7ebd397",
+          "updated": false
+        }
+      ]
+    },
+    "promotions": {
+      "title": {
+        "text": "추천상품"
+      },
+      "items": [
+        {
+          "label": "[19차 리오더] 페이크 레더 숏 테일러 자켓 블랙",
+          "discount_rate": 10,
+          "price": 90000,
+          "representative_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/9eb73fb3-2bc3-4c10-8031-2589196c6693",
+          "product_id": "jacket_1"
+        },
+        {
+          "label": "캐시미어 100% 터틀넥 스웨터",
+          "discount_rate": 15,
+          "price": 70000,
+          "representative_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/bd7f5681-11fd-486f-ba81-ebc28f74579a",
+          "product_id": "sweater_1"
+        },
+        {
+          "label": "반팔 스트라이트 스웨터",
+          "discount_rate": 20,
+          "price": 30000,
+          "representative_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/c2cd415a-1688-4680-bfe2-861139bca2d7",
+          "product_id": "sweater_2"
+        },
+        {
+          "label": "화이트 스포츠 점퍼",
+          "discount_rate": 20,
+          "price": 150000,
+          "representative_image_url": "https://github.com/hiharim/shoppi-android/assets/72755537/798598c9-3d3d-4f9f-8003-13c5015e380e",
+          "product_id": "sports_1"
+        }
+      ]
+    }
+  }
+}
